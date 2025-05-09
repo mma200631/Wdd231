@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Personal homepage for web development coursework.">
+        <meta name="author" content="Okpanachi Assumpta">
+        <title>My Homepage</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/home.css">
+        <script src="scripts/home.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <img src="images/profile.jpg.jpg" alt="My profile image">
+            <h1><span>Okpanachi Assumpta Chidinma</span></h1>
+            <button id="menuBtn" aria-label="Toggle Navigation">&#9776;</button>
+            <nav id="navMenu">
+                <a href="index.html">Home</a>
+                <a href="chamber.html">Chamber</a>
+                <a href="final">Final</a>
+                <a href="" target="_blank">Github Profile</a>
+                <a href="" target="_blank">Linkedln Profile</a>
+            </nav>
+        </header>
+        <main>
+            <h1>Home</h1>
+            <section class="card">
+                <div class="card1">
+                    <h2>Course Work</h2>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+
+                <div class="card2">
+                    <h2>Lagos, Nigeria</h2>
+                    <img src="images/flag.jpeg" alt="NIgeria flag">
+                    <p>The Giant of African</p>
+                </div>
+            </section>
+
+            <section id="certificate">
+                <h3>Web and Computer Programming Certificate</h3>
+                <div class="filter-buttons">
+                    <button id="showALL">All</button>
+                    <button id="showCSE">CSE</button>
+                    <button id="showWDD">WDD</button>
+                </div>
+                <div id="courseList" class="courseList"></div>
+                <p>Total Credit: <span id="creditTotal">0</span></p>    
+            </section>
+        </main>
+        <footer>
+            <p>&copy; <span id = "currentYear"></span> Okpanachi Assumpta Chidinma | Lagos, Nigeria</p>
+            <p id="lastModified"></p>
+
+        </footer>
+    </body>
+
+</html>
