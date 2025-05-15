@@ -17,8 +17,8 @@ const displayProphets = (prophets) => {
         const portrait = document.createElement('img');
 
         fullName.textContent = `${prophet.name} ${prophet.lastname}`; // ✅ Correct spelling: lastname
-        birthDate.textContent=`BirthDate ${prophet.birthdate}`;
-        birthPlace.textContent=`BirthPlace ${prophet.birthplace}`;
+        birthDate.textContent=`BirthDate: ${prophet.birthdate}`;
+        birthPlace.textContent=`BirthPlace: ${prophet.birthplace}`;
 
         portrait.setAttribute('src', prophet.imageurl);
         portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`);
