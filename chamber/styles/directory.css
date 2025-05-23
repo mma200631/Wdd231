@@ -71,7 +71,7 @@ body {
     padding: 0.7rem 1rem;
     margin: 0 0.7rem;
     border: none;
-    background-color: #0073e6;
+    background-color: #004080;
     color: white;
     cursor: pointer;
     font-weight: bold;
@@ -79,7 +79,7 @@ body {
   }
   
   .view-toggle button:hover {
-    background-color: #005bb5;
+    background-color: #004080;
   }
   
  
