@@ -1,0 +1,73 @@
+[
+    {
+      "name": "Green Valley Consulting",
+      "address": "123 Green St, Springfield, IL 62701",
+      "phone": "555-123-4567",
+      "website": "https://greenvalleyconsulting.com",
+      "image": "greenvalley.png",
+      "membershipLevel": 3,
+      "email": "contact@greenvalleyconsulting.com",
+      "description": "Business consulting specializing in sustainable practices."
+    },
+    {
+      "name": "Sunrise Bakery",
+      "address": "456 Baker Ln, Springfield, IL 62702",
+      "phone": "555-987-6543",
+      "website": "https://sunrisebakery.com",
+      "image": "sunrisebakery.png",
+      "membershipLevel": 2,
+      "email": "info@sunrisebakery.com",
+      "description": "Local bakery offering fresh breads and pastries."
+    },
+    {
+      "name": "Tech Innovators Inc.",
+      "address": "789 Tech Ave, Springfield, IL 62703",
+      "phone": "555-555-1212",
+      "website": "https://techinnovators.com",
+      "image": "techinnovators.png",
+      "membershipLevel": 3,
+      "email": "support@techinnovators.com",
+      "description": "Leading software development and IT solutions."
+    },
+    {
+      "name": "Green Leaf Landscaping",
+      "address": "101 Garden Rd, Springfield, IL 62704",
+      "phone": "555-222-3333",
+      "website": "https://greenleaflandscaping.com",
+      "image": "greenleaf.png",
+      "membershipLevel": 1,
+      "email": "service@greenleaflandscaping.com",
+      "description": "Landscaping and lawn care services."
+    },
+    {
+      "name": "Bright Future Academy",
+      "address": "202 Learning Blvd, Springfield, IL 62705",
+      "phone": "555-444-5555",
+      "website": "https://brightfutureacademy.edu",
+      "image": "brightfuture.png",
+      "membershipLevel": 2,
+      "email": "admin@brightfutureacademy.edu",
+      "description": "Private educational institution for K-12."
+    },
+    {
+      "name": "Healthy Living Pharmacy",
+      "address": "303 Wellness St, Springfield, IL 62706",
+      "phone": "555-666-7777",
+      "website": "https://healthylivingpharmacy.com",
+      "image": "healthyliving.png",
+      "membershipLevel": 1,
+      "email": "contact@healthylivingpharmacy.com",
+      "description": "Pharmacy and wellness products."
+    },
+    {
+      "name": "City Transport Services",
+      "address": "404 Transit Way, Springfield, IL 62707",
+      "phone": "555-888-9999",
+      "website": "https://citytransportservices.com",
+      "image": "citytransport.png",
+      "membershipLevel": 3,
+      "email": "info@citytransportservices.com",
+      "description": "Public and private transportation solutions."
+    }
+  ]
+  
