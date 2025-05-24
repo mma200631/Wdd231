@@ -18,8 +18,9 @@ body {
     justify-content: space-between;
   }
   
-  header h1 {
-    margin: 0;
+   h1 {
+    margin-left: auto;
+    text-align: left;
     font-size: 1.8rem;
   }
   
