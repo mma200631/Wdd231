@@ -6,9 +6,10 @@
         <meta name="description" content="Directory of members for the Springfield Chamber of Commerce.">
         <meta name="author" content="Okpanachi Assumpta">
         <title> Chamber Directory-Springfield Chamber of Commerce</title>
-        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="styles/index.css">
         <link rel="stylesheet" href="styles/directory.css">
-        <script src="scripts/directory.js" defer></script>
+        <script src="scripts/weather.js" defer></script>
+        <script src="scripts/spotlights.js" defer></script>
         <link rel="icon" href="favicon.ico" type="image/x-icon">
 
 
@@ -32,16 +33,42 @@
             </nav>
         </header>
         <main>
-            <h1>Chamber Directory – Springfield Chamber of Commerce</h1>
-            <h2>Members Directory</h2>
-            
+            <h1>Springfield Chamber of Commerce</h1>
+            <section class="hero">
+                <h2 class="hero-title">Welcome to Our Site</h2>
+                <img src="images/chamberofcommerce_heroimage.png" alt="hero image chamber of Commerce">
+                <a class="cta-button" href="join.html">Join the Chamber</a>
+            </section>
 
-            <div class="view-toggle">
-                <button id="gridview" aria-pressed="true">Grid View</button>
-                <button id="listview" aria-pressed="false">List View</button>
-              </div>
+            <section class="grid-container">
+                <h2 class="sr-only">HOME</h2>
+                  <section class="current-events">
+                    <h2>Current Events</h2>
+                    <ul>
+                      <li>Annual Business Expo - June 15, 2025</li>
+                      <li>Networking Breakfast - July 5, 2025</li>
+                      <li>Workshop: Marketing Trends - July 20, 2025</li>
+                    </ul>
+                  </section>
               
-              <div id="cards" class="grid"></div>
+                  <section class="weather">
+                    <h2>Weather Forecast</h2>
+                    <p>Current temperature: <span id="current-temp">--</span>°C</p>
+                    <p>Condition: <span id="weather-desc">--</span></p>
+                    <div id="forecast">
+                      <div class="day"><p>Day 1: <span class="temp">--</span>°C</p></div>
+                      <div class="day"><p>Day 2: <span class="temp">--</span>°C</p></div>
+                      <div class="day"><p>Day 3: <span class="temp">--</span>°C</p></div>
+                    </div>
+                  </section>
+              
+                  <section class="spotlights">
+                    <h2>Member Spotlights</h2>
+                    <div id="spotlight-cards" class="grid-cards"></div>
+                    
+                  </section>
+                </section>
+              
               
         </main>
         
