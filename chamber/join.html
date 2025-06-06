@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Directory of members for the Springfield Chamber of Commerce.">
+        <meta name="author" content="Okpanachi Assumpta">
+        <title>Join | Chamber of Commerce</title>
+        <link rel="stylesheet" href="styles/directory.css">
+        <script src="scripts/directory.js" defer></script>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+
+
+        <meta property="og:title" content="Springfield Chamber Directory">
+        <meta property="og:description" content="Discover local businesses and members of the Springfield Chamber of Commerce.">
+        <meta property="og:image" content="images/social-image.png">
+        <meta property="og:locale" content="en-US">
+        <meta property="og:url" content="directory.html">
+        
+    </head>
+    <body>
+        <header>
+            
+            <button id="menuBtn" aria-label="Toggle Navigation">&#9776;</button>
+            <nav id="navMenu">
+                <a href="index.html">Home</a>
+                <a href="directory.html">Directory</a>
+                <a href="join.html">Join</a>
+                <a href="discover.html">Discover</a>
+            </nav>
+        </header>
+        <main>
+            <h1>Join Our Chamber</h1>
+            <form method="get" action="thankyou.html">
+                <label>First Name:
+                    <input type="text" name="fname" title="First Name" required autocomplete="given-name">
+                </label>
+                <label>Last Name:
+                    <input type="text" name="lname" title="Last Name" required autocomplete="family-name">
+                </label>
+                <label>Organazational Title:
+                    <input type="text"  name="orgtitle" title="Organazational Title" pattern="[A-Za-z\-\s]{7,}" required autocomplete="organization-title">
+                </label>
+                <label>Email:
+                    <input type="email" name="email" title="Email Address" required autocomplete="email" placeholder="you@example.com">
+                </label>
+                <label>Mobile Phone
+                    <input type="tel" name="phone" title="Mobile phone" required autocomplete="tel">
+                </label>
+                <label>Organazation Name:
+                    <input type="text" name="organazation" title=" Organazation" required autocomplete="organization">
+                </label>
+                <label>Membership Level:
+                    <select name="membership" title="Select Membership">
+                        <option value="NP">NP Membership (Free)</option>
+                        <option value="Bronze">Bronze</option>
+                        <option vlaue="Silver">Silver</option>
+                        <option value="Gold">Gold</option>
+                    </select>
+                </label>
+                <label>organization Description:
+                    <textarea name="description" title="Organazational Description"></textarea>
+                </label>
+                <input type="hidden" id="timestamp" name="timestamp">
+                <input type="submit" value="Submit Application">
+            </form>
+
+            <section class="membership-cards">
+                <div class="cards" id="np-cards">
+                    <h2>NP Membership</h2>
+                    <a href="#" onclick="document.getElementById('np-modal').showModal()">More Info</a>
+                </div>
+                <div class="cards" id="bronze-cards">
+                    <h2>Bronze Membership</h2>
+                    <a href="#" onclick="document.getElementById('bronze-modal').showModal()">More Info</a>
+                </div>
+
+                 <div class="cards" id="silver-cards">
+                    <h2>Silver Membership</h2>
+                    <a href="#" onclick="document.getElementById('silver-modal').showModal()">More Info</a>
+                 </div>
+                 <div class="cards" id="gold-cards">
+                    <h2>Gold Membership</h2>
+                    <a href="#" onclick="document.getElementById('gold-modal').showModal()">More Info</a>
+                 </div>
+            </section>
+            <dialog id="np-modal">
+                <p>No cost. For nonprofits. Access to events.</p>
+                <button onclick="this.closest('dialog').close()">Close</button>
+            </dialog>
+            <dialog id="bronze-modal">
+                <p>Includes NP benefits + training access.</p>
+                <button onclick="this.closest('dialog').close()">Close</button>
+            </dialog>
+            <dialog id="silver-modal">
+                <p>Includes Bronze + advertising opportunities.</p>
+                <button onclick="this.closest('dialog').close()">Close</button>
+            </dialog>
+            <dialog id="gold-modal">
+                <p>All benefits plus homepage spotlight and discounts.</p>
+                <button onclick="this.closest('dialog').close()">Close</button>
+            </dialog>
+        </main>
+        <footer>
+            <footer class="site-footer">
+                <div class="footer-content">
+                  <div class="footer-section contact">
+                    <h4>Springfield Chamber Of Commerce</h4>
+                    <p>123 Main Street, Springfield, IL 62704</p>
+                    <p>Email: info@springfieldchamber.com</p>
+                    <p>Phone: 555-123-4567</p>
+                  </div>
+              
+                  <div class="footer-section social">
+                    <h4>Connect With Us</h4>
+                    <div class="social-icons">
+                      <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
+                        <img src="images/facebook.png" alt="Facebook">
+                      </a>
+                      <a href="https://instagram.com/" target="_blank" aria-label="Instagram">
+                        <img src="images/instagram.jpeg" alt="Instagram">
+                      </a>
+                      <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn">
+                        <img src="images/linkedin.png" alt="LinkedIn">
+                      </a>
+                    </div>
+                  </div>
+              
+                  <div class="footer-section credits">
+                    <h4>Project Info</h4>
+                    <p>WDD231 Class Project</p>
+                    <p>Okpanachi Assumpta</p>
+                    <p>&copy; Springfield Chamber of Commerce</p>
+                    <p id="lastModified"></p>
+                  </div>
+                </div>
+              </footer>
+
+        </footer>
+    </body>
+</html>
