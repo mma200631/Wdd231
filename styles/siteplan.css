@@ -1,0 +1,32 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+    padding: 2rem;
+    line-height: 1.6;
+  }
+
+  h1, h2 {
+    color: #002b45;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+
+  section {
+    margin-bottom: 2rem;
+  }
+
+  .wireframes img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    margin-top: 1rem;
+  }

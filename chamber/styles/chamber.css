@@ -469,6 +469,67 @@ body {
       flex: 1 1 auto;
     }
   }
+
+  /* Discover page Css */
+
+  .discover-grid {
+    display: grid;
+    grid-template-areas:
+      "card1"
+      "card2"
+      "card3"
+      "card4"
+      "card5"
+      "card6"
+      "card7"
+      "card8";
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  @media (min-width: 641px) {
+    .discover-grid {
+      grid-template-areas:
+        "card1 card2"
+        "card3 card4"
+        "card5 card6"
+        "card7 card8";
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .discover-grid {
+      grid-template-areas:
+        "card1 card2 card3 card4"
+        "card5 card6 card7 card8";
+    }
+  }
+  
+  .cards {
+    background-color:#f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+  
+  @media (min-width: 641px) {
+    .cards:hover figure img {
+      filter: brightness(0.9) contrast(1.1);
+      transform: scale(1.05);
+    }
+  }
+  
+  .cards figure {
+    margin: 0;
+  }
+  
+  .cards img {
+    width: 300px;
+    height: auto;
+    border-radius: 6px;
+  }
+  
   
   .site-footer {
     background-color: #002b45;
