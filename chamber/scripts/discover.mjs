@@ -1,3 +1,4 @@
+import { discover } from './discoverData.mjs';
 
 const menuBtn = document.getElementById('menuBtn');
 const navMenu = document.getElementById('navMenu');
@@ -20,20 +21,7 @@ if (!lastVisit) {
 }
 localStorage.setItem('lastVisit', now);
 
-
 const grid = document.getElementById('discoverGrid');
-
-async function getDiscoverData() {
-  try {
-    const response = await fetch('data/discover.json');
-    if (!response.ok) throw new Error("Network response was not ok");
-
-    const discover = await response.json();
-    displayDiscover(discover);
-  } catch (error) {
-    console.error("Failed to load items:", error);
-  }
-}
 
 function displayDiscover(discover) {
   discover.forEach((item, index) => {
@@ -52,4 +40,4 @@ function displayDiscover(discover) {
   });
 }
 
-getDiscoverData();
+displayDiscover(discover);
