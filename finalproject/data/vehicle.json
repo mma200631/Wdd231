@@ -1,0 +1,138 @@
+[
+    {
+      "id": 1,
+      "make": "Toyota",
+      "model": "Camry",
+      "year": 2021,
+      "price": 24000,
+      "mileage": 15000,
+      "image": "images/toyota-camry.webp"
+    },
+    {
+      "id": 2,
+      "make": "Honda",
+      "model": "Civic",
+      "year": 2020,
+      "price": 21000,
+      "mileage": 18000,
+      "image": "images/honda-civic.webp"
+    },
+    {
+      "id": 3,
+      "make": "Ford",
+      "model": "F-150",
+      "year": 2019,
+      "price": 35000,
+      "mileage": 30000,
+      "image": "images/ford-f150.webp"
+    },
+    {
+      "id": 4,
+      "make": "Chevrolet",
+      "model": "camaro",
+      "year": 2025,
+      "price": 27000,
+      "mileage": 12000,
+      "image": "images/chevrolet-camaro.webp"
+    },
+    {
+      "id": 5,
+      "make": "Dodge",
+      "model": "Challenger",
+      "year": 2025,
+      "price": 23000,
+      "mileage": 16000,
+      "image": "images/dodge-challenger.webp"
+    },
+    {
+      "id": 6,
+      "make": "lamborghini",
+      "model": "Urus",
+      "year": 2023,
+      "price": 42000,
+      "mileage": 5000,
+      "image": "images/lamborghini-urus.webp"
+    },
+    {
+      "id": 7,
+      "make": "Rolls-Royce",
+      "model": "Cullinan",
+      "year": 2025,
+      "price": 5000000,
+      "mileage": 10000,
+      "image": "images/rolls-royce-cullinan.webp"
+    },
+    {
+      "id": 8,
+      "make": "Mercedes Benz",
+      "model": "G Wagon",
+      "year": 2022,
+      "price": 25000,
+      "mileage": 22000,
+      "image": "images/mercedesbenz-g wagon.webp"
+    },
+    {
+      "id": 9,
+      "make": "BMW",
+      "model": "i8",
+      "year": 2021,
+      "price": 31000,
+      "mileage": 28000,
+      "image": "images/bmw-i8.webp"
+    },
+    {
+      "id": 10,
+      "make": "Audi",
+      "model": "A4",
+      "year": 2021,
+      "price": 33000,
+      "mileage": 14000,
+      "image": "images/audi-a4.webp"
+    },
+    {
+      "id": 11,
+      "make": "Subaru",
+      "model": "Outback",
+      "year": 2020,
+      "price": 26000,
+      "mileage": 19000,
+      "image": "images/subaru-outback.webp"
+    },
+    {
+      "id": 12,
+      "make": "Bugatti",
+      "model": "Chiron",
+      "year": 2022,
+      "price": 28000,
+      "mileage": 9000,
+      "image": "images/bugatti-chiron.webp"
+    },
+    {
+      "id": 13,
+      "make": "Volkswagen",
+      "model": "Jetta",
+      "year": 2021,
+      "price": 22000,
+      "mileage": 17000,
+      "image": "images/vw-jetta.webp"
+    },
+    {
+      "id": 14,
+      "make": "Jeep",
+      "model": "Wrangler",
+      "year": 2023,
+      "price": 39000,
+      "mileage": 4000,
+      "image": "images/jeep-wrangler.webp"
+    },
+    {
+      "id": 15,
+      "make": "Lexus",
+      "model": "RX 350",
+      "year": 2022,
+      "price": 45000,
+      "mileage": 10000,
+      "image": "images/lexus-rx350.webp"
+    }
+  ]
+  
