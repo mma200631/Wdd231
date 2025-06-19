@@ -5,7 +5,7 @@ export function displayVehicles(vehicles, container) {
       card.classList.add('vehicle-card');
   
       card.innerHTML = `
-        <img src="${vehicle.image}" alt="${vehicle.make} ${vehicle.model}" loading="lazy">
+        <img src="${vehicle.image}" alt="${vehicle.make} ${vehicle.model}" loading ="lazy">
         <h3>${vehicle.make} ${vehicle.model}</h3>
         <p><strong>Year:</strong> ${vehicle.year}</p>
         <p><strong>Price:</strong> $${vehicle.price.toLocaleString()}</p>

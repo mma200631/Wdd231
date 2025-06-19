@@ -189,6 +189,35 @@ form#filter-form {
   form#filter-form button:hover {
     background-color: #001a2d;
   }
+
+  /* Featured Section */
+.featured {
+    background-color: #ffffff;
+    padding: 4rem 2rem;
+  }
+  
+  .featured h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: #002b45;
+  }
+  
+  /* Search Filter Section */
+  .search-filter {
+    background-color: #f9f9f9;
+    padding: 4rem 2rem;
+    border-top: 1px solid #ddd;
+  }
+  
+  .search-filter h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Oswald', sans-serif;
+    color: #002b45;
+  }
+  
   
   /* example minimal modal styles */
 .modal.hidden {
